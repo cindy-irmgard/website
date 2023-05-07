@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "cwd": "${workspaceRoot}",
+      "name": "Dev",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["dev"],
+      "type": "node"
+    }
+  ]
+}
