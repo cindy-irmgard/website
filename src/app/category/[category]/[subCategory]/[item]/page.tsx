@@ -1,7 +1,7 @@
 import { categories } from "@/data";
 import Image from "next/image";
 
-const ItemPage = ({ params }) => {
+const ItemPage = ({ params }: any) => {
   const category = categories.find(({ slug }) => slug === params.category);
   const subCategory = category?.subCategories.find(
     ({ slug }) => slug === params.subCategory

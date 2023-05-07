@@ -1,7 +1,7 @@
 import { Category } from "@/components/Category";
 import { categories } from "@/data";
 
-const CategoryPage = ({ params }) => {
+const CategoryPage = ({ params }: any) => {
   const category = categories.find(({ slug }) => slug === params.category);
 
   return (

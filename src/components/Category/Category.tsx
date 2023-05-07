@@ -1,4 +1,4 @@
-import styles from "./category.module.scss";
+import styles from "./Category.module.scss";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
