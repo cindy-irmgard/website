@@ -49,6 +49,7 @@ import building from "@/assets/images/building.jpg";
 import captainAmerica from "@/assets/images/outline-captain-america.jpg";
 import metMees from "@/assets/images/outline met mees.jpg";
 import KieferSutherlandOutline from "@/assets/images/Kiefer Sutherland outline.jpg";
+import KieferTouring from "@/assets/images/KieferTouring.jpg";
 
 // painting
 import lp from "@/assets/images/lp.jpg";
@@ -331,6 +332,11 @@ const artworkSubCategories: SubCategory[] = [
         slug: "with-mees",
         name: "On the boat with Mees",
         image: metMees,
+      },
+      {
+        slug: "kiefer-sutherland-touring",
+        name: "Kiefer Sutherland touring Utrecht",
+        image: KieferTouring,
       },
     ],
   },

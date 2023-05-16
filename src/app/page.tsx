@@ -1,10 +1,10 @@
 import Image from "next/image";
-import halfhalf from "@/assets/images/halfhalf.jpg";
+import homepage from "@/assets/images/homepage.jpg";
 
 const Home = () => (
   <Image
     alt="Background"
-    src={halfhalf}
+    src={homepage}
     fill
     style={{
       objectFit: "cover",

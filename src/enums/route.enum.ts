@@ -16,5 +16,6 @@ export enum Route {
   // Lineart = "/artwork/lineart",
   // Painting = "/artwork/painting",
   Pricing = "/pricing",
+  Otherprojects = "/otherprojects",
   Contact = "/contact",
 }

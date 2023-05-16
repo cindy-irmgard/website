@@ -27,9 +27,15 @@ export const Header = () => {
             </Link>
           );
         })}
+
+        <Link className={styles.link} href={Route.Otherprojects}>
+          Other projects
+        </Link>
+
         <Link className={styles.link} href={Route.Pricing}>
           Pricing
         </Link>
+
         <Link className={styles.link} href={Route.Contact}>
           Contact
         </Link>
