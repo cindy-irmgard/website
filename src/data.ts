@@ -17,6 +17,10 @@ import KennyB from "@/assets/images/KennyB.jpg";
 import VanVelzenEnRalfPouw from "@/assets/images/vanVelzenEnRalfPouw.jpg";
 import HaarlemJazz from "@/assets/images/HaarlemJazz.jpg";
 import Alvarosoler from "@/assets/images/alvarosoler.jpg";
+import CaseyLowry from "@/assets/images/CaseyLowry.jpg";
+import ConorMaynard from "@/assets/images/ConorMaynard.jpg";
+import MitchellTheWailers from "@/assets/images/MitchellTheWailers.jpg";
+
 // fauna
 import bij from "@/assets/images/bij.jpg";
 import Snake from "@/assets/images/snake.jpg";
@@ -24,6 +28,11 @@ import Cat from "@/assets/images/cat.jpg";
 import KieferSnow from "@/assets/images/KieferSnow.jpg";
 import Kiefertje from "@/assets/images/Kiefertje.jpg";
 import squirrel from "@/assets/images/squirrel.jpg";
+import monkey from "@/assets/images/monkey.jpg";
+import KieferBeach from "@/assets/images/KieferBeach.jpg";
+import butterfly from "@/assets/images/butterfly.jpg";
+import crocodile from "@/assets/images/crocodile.jpg";
+
 // flora
 import IJsland from "@/assets/images/IJsland.jpg";
 import NationaalParkPingvellir from "@/assets/images/NationaalParkPingvellir.jpg";
@@ -43,6 +52,7 @@ import AintNoMountain from "@/assets/images/aint no mountain.jpg";
 import weed from "@/assets/images/weed.jpg";
 import RockingTeddiursa from "@/assets/images/rocking teddiursa.jpg";
 import RoelKleur from "@/assets/images/Roel kleur.jpg";
+import drawingTMB from "@/assets/images/drawing TMB.jpg";
 
 // outline
 import building from "@/assets/images/building.jpg";
@@ -166,9 +176,24 @@ const gallerySubCategories: SubCategory[] = [
         image: HaarlemJazz,
       },
       {
-        slug: "alvaro-solor",
+        slug: "alvaro-soler",
         name: "Alvaro Soler & Fritz ",
         image: Alvarosoler,
+      },
+      {
+        slug: "casey-lowry",
+        name: "Casey Lowry",
+        image: CaseyLowry,
+      },
+      {
+        slug: "conor-maynard",
+        name: "Conor Maynard",
+        image: ConorMaynard,
+      },
+      {
+        slug: "mitchell-the-wailers",
+        name: "Mitchell the Wailers",
+        image: MitchellTheWailers,
       },
     ],
   },
@@ -190,6 +215,7 @@ const gallerySubCategories: SubCategory[] = [
       {
         slug: "cat",
         name: "Cat",
+        description: "Captured on Sony a6400",
         image: Cat,
       },
       {
@@ -205,7 +231,32 @@ const gallerySubCategories: SubCategory[] = [
       {
         slug: "squirrel",
         name: "squirrel",
+        description: "Captured on Sony a6400",
         image: squirrel,
+      },
+      {
+        slug: "goeldis-monkey",
+        name: "Goeldi's monkey",
+        description: "Captured on Sony a6400",
+        image: monkey,
+      },
+      {
+        slug: "kiefer-beach",
+        name: "Kiefer",
+        description: "Captured on Sony a6400",
+        image: KieferBeach,
+      },
+      {
+        slug: "butterfly",
+        name: "Butterfly",
+        description: "Captured on Canon 1200D",
+        image: butterfly,
+      },
+      {
+        slug: "crocodile",
+        name: "Crocodile",
+        description: "Captured on Canon 1200D",
+        image: crocodile,
       },
     ],
   },
@@ -305,6 +356,11 @@ const artworkSubCategories: SubCategory[] = [
         slug: "roel-van-velzen",
         name: "Roel van Velzen",
         image: RoelKleur,
+      },
+      {
+        slug: "brandaris-terschelling",
+        name: "Brandaris Terschelling",
+        image: drawingTMB,
       },
     ],
   },
