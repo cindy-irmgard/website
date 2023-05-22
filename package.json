@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "production": "git pull && yarn install --frozen-lockfile --ignore-scripts && yarn build && pm2 reload ecosystem.config.js",
     "build": "next build",
     "start": "next start -p 3006",
     "lint": "next lint"
