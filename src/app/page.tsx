@@ -5,10 +5,13 @@ const Home = () => (
   <Image
     alt="Background"
     src={homepage}
-    fill
     style={{
       objectFit: "cover",
       objectPosition: "top",
+      width: "100%",
+      height: "100vh",
+      marginTop: -90,
+      marginBottom: -60,
     }}
   />
 );

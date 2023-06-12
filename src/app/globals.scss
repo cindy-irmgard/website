@@ -13,11 +13,15 @@ p {
   color: white;
 }
 
-h1,
+h1 {
+  font-size: 32px;
+  color: white;
+}
 h2,
 h3,
 ul,
-li {
+li,
+label {
   color: white;
   font-size: 18px;
   list-style-position: inside;
@@ -28,6 +32,9 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: black;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 60px;
 
   // background: linear-gradient(
   //   to bottom,

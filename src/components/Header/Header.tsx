@@ -16,6 +16,7 @@ export const Header = () => {
         <Link className={styles.link} href={Route.About}>
           About
         </Link>
+
         {categories.map((category) => {
           return (
             <Link

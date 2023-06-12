@@ -1,4 +1,17 @@
 .container {
+  // Zet hem onderaan
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  // Achtergrond magic
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+
+  height: 60px;
   width: 100%;
   padding: 20px;
   text-align: center;

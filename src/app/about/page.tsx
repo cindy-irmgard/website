@@ -18,10 +18,10 @@ const About = async () => {
         <div className={styles.about}>
           <Image className={styles.hey} width={150} alt="hey" src={heyWit} />
           <div>
-            <h1>I&apos;m Cindy Irmgard</h1>
+            <h2>I&apos;m Cindy Irmgard</h2>
             <br />
             <p>
-              Hi, my name is Cindy, a 22-year-old girl trying to find her way in
+              Hi, my name is Cindy, a 23-year-old girl trying to find her way in
               photography, digital art & design. When I was 16 I studied for 3
               years at the Media & Journalism course in Amsterdam. This course
               actually teaches you the basics of everything in the media, such
