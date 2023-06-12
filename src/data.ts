@@ -47,7 +47,6 @@ import JonasWithGuests from "@/assets/images/jonasWithGuests.jpg";
 import LucyAndAnusha from "@/assets/images/LucyAndAnusha.jpg";
 // cartoon
 import mccartney from "@/assets/images/mccartney.jpg";
-import LittleMermaid from "@/assets/images/little-mermaid.jpg";
 import AintNoMountain from "@/assets/images/aint-no-mountain.jpg";
 import weed from "@/assets/images/weed.jpg";
 import RockingTeddiursa from "@/assets/images/rocking-teddiursa.jpg";
@@ -332,11 +331,7 @@ const artworkSubCategories: SubCategory[] = [
         name: "Paul Mccartney on stage",
         image: mccartney,
       },
-      {
-        slug: "little-mermaid",
-        name: "Little Mermaid",
-        image: LittleMermaid,
-      },
+
       {
         slug: "aint-no-mountain",
         name: "Ain't no mountain high enough",
