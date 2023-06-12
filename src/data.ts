@@ -47,18 +47,18 @@ import JonasWithGuests from "@/assets/images/jonasWithGuests.jpg";
 import LucyAndAnusha from "@/assets/images/LucyAndAnusha.jpg";
 // cartoon
 import mccartney from "@/assets/images/mccartney.jpg";
-import LittleMermaid from "@/assets/images/little mermaid.jpg";
-import AintNoMountain from "@/assets/images/aint no mountain.jpg";
+import LittleMermaid from "@/assets/images/little-mermaid.jpg";
+import AintNoMountain from "@/assets/images/aint-no-mountain.jpg";
 import weed from "@/assets/images/weed.jpg";
-import RockingTeddiursa from "@/assets/images/rocking teddiursa.jpg";
-import RoelKleur from "@/assets/images/Roel kleur.jpg";
-import drawingTMB from "@/assets/images/drawing TMB.jpg";
+import RockingTeddiursa from "@/assets/images/rocking-teddiursa.jpg";
+import RoelKleur from "@/assets/images/roel-kleur.jpg";
+import drawingTMB from "@/assets/images/drawing-tmb.jpg";
 
 // outline
 import building from "@/assets/images/building.jpg";
 import captainAmerica from "@/assets/images/outline-captain-america.jpg";
-import metMees from "@/assets/images/outline met mees.jpg";
-import KieferSutherlandOutline from "@/assets/images/Kiefer Sutherland outline.jpg";
+import metMees from "@/assets/images/outline-met-mees.jpg";
+import KieferSutherlandOutline from "@/assets/images/kiefer-sutherland-outline.jpg";
 import KieferTouring from "@/assets/images/KieferTouring.jpg";
 
 // painting
