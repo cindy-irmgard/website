@@ -1,0 +1,61 @@
+:root {
+  --primary-color: 232, 88, 230;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+}
+
+h1 {
+  font-size: 32px;
+  color: white;
+}
+
+h2,
+h3,
+ul,
+li,
+label {
+  color: white;
+  font-size: 18px;
+  list-style-position: inside;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 60px;
+
+  // background: linear-gradient(
+  //   to bottom,
+  //   (rgb(61, 140, 209)),
+  //   rgba(251, 194, 235)
+  // );
+}
+
+main {
+  display: grid;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  width: 100%;
+  padding: 32px;
+  flex-wrap: wrap;
+  align-self: center;
+}

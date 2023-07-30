@@ -5,8 +5,10 @@ import {
   ServiceWorkerRegister,
 } from "@builder.io/qwik-city";
 import { RouterHead } from "./components/router-head/router-head";
+import { Footer } from "~/components/footer";
+import { Header } from "~/components/header";
 
-import "./global.css";
+import "./global.scss";
 
 export default component$(() => {
   /**
@@ -23,8 +25,16 @@ export default component$(() => {
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
-      <body lang="en">
-        <RouterOutlet />
+      <body lang="nl">
+        <Header />
+        <main
+          style={{
+            position: "relative",
+          }}
+        >
+          <RouterOutlet />
+        </main>
+        <Footer />
         <ServiceWorkerRegister />
       </body>
     </QwikCityProvider>
